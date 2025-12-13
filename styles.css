@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(245, 207, 227);
+    font-style: italic;
+    }
+.custom-navbar {
+    background-color:rgb(245, 63, 163);
+    }
+.custom-navbar .nav-link {
+    color:white;
+    }
+.custom-navbar .nav-link:hover {
+    color:gray; 
+    } 
+.custom-navbar .nav-link:active {
+    color:black;
+    }
+.custom-navbar {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    } 
+      

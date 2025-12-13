@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kissanomistajan opas</title>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">    
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Kissanomistajan opas</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Etusivu</a></li>
+        <li class="nav-item"><a class="nav-link" href="hoito.html">Hoito</a></li>
+        <li class="nav-item"><a class="nav-link" href="ruokinta.html">Ruokinta</a></li>
+        <li class="nav-item"><a class="nav-link" href="terveys.html">Terveys</a></li>
+        <li class="nav-item"><a class="nav-link" href="kuvat.html">Kuvat</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<main class="text-center">
+<h1 class="mt-4">Kissanomistajan opas</h1>
+<p>Tervetuloa oppaaseen, jossa saat neuvoja kissan hoidosta, ruokinnasta ja terveydestä.</p>
+
+<img src="images/kissa5.jpg" alt="Kuva kissasta" class="img-fluid rounded mb-4" style="max-width: 400px; width:100%;">
+<img src="images/kissa3.jpg" alt="Kuva kissasta" class="img-fluid rounded mb-4" style="max-width: 400px; width:100%;">
+<img src="images/kissa2.jpg" alt="Kuva kissata" class="img-fluid rounded mb-4" style="max-width: 400px; width:100%;">
+
+<h2 style="font-size:larger;">Lähetä palautetta tai kysy lisää</h2>    
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+             <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nimi:</label>
+                    <input type="text" class="form-control" id="name" name="name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Sähköposti:</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                </div>
+                <div class="mb-3">
+                     <label for="message" class="form-label">Palaute tai kysymys:</label>
+                     <textarea class="form-control" id="message" name="message" rows="4" placeholder="Kirjoita kysymyksesi tai palautteesi tähän..."></textarea>
+                </div>
+             <button type="submit" class="btn btn-dark">Lähetä</button>
+            </form>
+        </div>
+    </div>
+</div>
+</main>
+<footer class="bg-light text-center mt-4">
+    <p>&copy; 2025 Mikaela Grundström</p>
+</footer>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>
