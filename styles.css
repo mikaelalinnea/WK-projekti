@@ -21,4 +21,11 @@ ul {
   list-style-position: inside;
   text-align: center;
   padding-left: 0;
-  }              
+  }
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+html, body {
+  overflow-x: hidden;
+}
