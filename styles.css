@@ -17,4 +17,8 @@ body {
 .custom-navbar {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     } 
-      
+ul {
+  list-style-position: inside;
+  text-align: center;
+  padding-left: 0;
+  }              
