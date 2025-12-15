@@ -9,7 +9,11 @@ h1, h2, h3, h4, h5, h6 {
 .oma-footer {
   color:black;
   background-color:rgb(251, 142, 200);
-   }    
+   } 
+.navbar {
+  background-image: url("images/banneri1.jpg");
+  padding:20px;
+  }      
 .custom-navbar {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
@@ -60,8 +64,5 @@ img {
 .box {
   background-color: rgb(250, 189, 198);
   padding: 15px;
-  }
-.navbar {
-  background-image: url("images/banneri1.jpg");
-  padding:20px;
+  min-height: 180px;
   }
