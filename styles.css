@@ -1,20 +1,23 @@
 body {
-    background-color: rgb(245, 207, 227);
+    background-color:#feeded;
     font-style:normal;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 h1, h2, h3, h4, h5, h6 {
   font-style: italic;
-  }    
+  } 
+.oma-footer {
+  color:black;
+  background-color:rgb(251, 142, 200);
+   }    
 .custom-navbar {
-    background-color:rgb(245, 63, 163);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 .custom-navbar .nav-link {
-    color:white;
+    color:rgb(83, 83, 83);
     }
 .custom-navbar .nav-link:hover {
-    color:gray; 
+    color:rgb(223, 222, 222); 
     } 
 .custom-navbar .nav-link:active {
     color:black;
@@ -44,9 +47,21 @@ img {
 .vinkki-kupla {
   border: 2px solid #8d316e;
   max-width: 550px;
-  border-radius: 20px;
+  border-radius: 15px;
   }
 .table {
   border: 2px solid #8d316e;
-  border-radius: 20px;
+  border-radius: 15px;
 } 
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+  }
+.box {
+  background-color: rgb(250, 189, 198);
+  padding: 15px;
+  }
+.navbar {
+  background-image: url("images/banneri1.jpg");
+  padding:20px;
+  }
