@@ -64,6 +64,5 @@ img {
 .box {
   background-color: rgb(250, 189, 198);
   padding: 15px;
-  min-height: 180px;
-  max-width: 550px;
+  min-height: 180px; max-width: 550px;
   }
