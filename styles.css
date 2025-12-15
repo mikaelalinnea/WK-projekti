@@ -8,6 +8,7 @@ h1, h2, h3, h4, h5, h6 {
   }    
 .custom-navbar {
     background-color:rgb(245, 63, 163);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 .custom-navbar .nav-link {
     color:white;
@@ -18,9 +19,6 @@ h1, h2, h3, h4, h5, h6 {
 .custom-navbar .nav-link:active {
     color:black;
     }
-.custom-navbar {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    } 
 ul {
   list-style-position: inside;
   text-align: center;
@@ -30,11 +28,8 @@ ul {
   margin-left: 0;
   margin-right: 0;
 }
-html, body {
-  overflow-x: hidden;
-}
 .carousel-item img {
-  border-radius: 10px;
+  border-radius: 15px;
   }
 .btn-dark {
   background-color:rgb(190, 20, 233);
